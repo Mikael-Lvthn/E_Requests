@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Municipality of Urbiztondo</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    .fade {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+    .fade.visible {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <img src="logo.png" alt="Municipality Logo" />
+    <h1>Municipality of Urbiztondo</h1>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle">Forms <i class="fa fa-chevron-down"></i></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Building Permit</a></li>
+          <li><a href="#">Business Permit</a></li>
+          <li><a href="#">Sanitary Permit</a></li>
+          <li><a href="#">Demolition Permit</a></li>
+          <li><a href="#">Electrical Permit</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle">Status Tracker <i class="fa fa-chevron-down"></i></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Service Status</a></li>
+          <li><a href="#">Complaint Status</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Profile</a></li>
+      <li class="search-container">
+      <a href="#" class="search-icon" aria-label="Search"><i class="fa fa-search"></i></a>
+  <input type="search" class="search-input" placeholder="Search..." aria-label="Search input" />
+      </li>
+
+
+    </ul>
+  </nav>
+</header>
+
+  <section class="hero fade">
+    <div class="hero-content">
+      <h2>Municipality of Urbiztondo</h2>
+      <p>Discover local news, city services, and initiatives that bring our community together. Let’s build a better place, one step at a time.</p>
+      <a href="#" class="btn" id="dashboardBtn">Dashboard</a>
+    </div>
+  </section>
+
+  <div id="dashboardModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Dashboard</h2>
+      <p>Explore a wide range of services designed to meet the needs of our community.</p>
+      <div class="input-with-icon">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="Reference Number..." />
+      </div>
+      <div class="cards">
+        <div class="card">
+          <i class="fa fa-calendar-alt"></i>
+          <h3>Services</h3>
+          <a href="#">View all Services Request</a>
+        </div>
+        <div class="card">
+          <i class="fa fa-comments"></i>
+          <h3>Online Complaints</h3>
+          <a href="#">Make a complaint</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="about fade">
+    <div class="about-content">
+      <img src="1TRY.jpg" alt="About Urbiztondo" />
+      <div class="about-text">
+        <h2>About Urbiztondo</h2>
+        <p1>Welcome to Urbiztondo, a vibrant municipality in Pangasinan, known for its strong community, agricultural roots, and steady progress.</p1>
+        <p2>With 21 barangays, our town embraces unity, resilience, and tradition, while supporting sustainable development and public service excellence.</p2>
+        <p3>Join us in celebrating our rich heritage and working towards a brighter future for all residents.</p3>
+        <p4>Our Kanen Festival is a joyful celebration of culture, delicacies, and togetherness.</p4>
+        <p><b>Experience Urbiztondo—where tradition meets progress, and everyone feels at home.</b></p>
+<div class="links">
+  <a href="#">
+    Background
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+    </svg>
+  </a>
+  <a href="#">
+    Direction
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+    </svg>
+  </a>
+  <a href="#">
+    Transportation
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+    </svg>
+  </a>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="news fade">
+    <h2>News and Events</h2>
+    <p>View the current affairs of Urbiztondo</p>
+    <div class="news-cards">
+      <div class="news-card">
+        <img src="news1.jpg" alt="News" />
+        <pb>Health Summit</pb>
+        <p>Urbiztondo held a health summit focusing on wellness and disease prevention.</p>
+        <span>June 8, 2023</span>
+      </div>
+      <div class="news-card">
+        <img src="news2.jpg" alt="News" />
+        <pb>Fiesta Celebration</pb>
+        <p>Urbiztondo’s town fiesta was a vibrant success, featuring parades and cultural shows. Ongoing road and drainage projects also highlight the town’s commitment to progress.</p>
+        <span>June 7, 2023</span>
+      </div>
+      <div class="news-card">
+        <img src="news3.jpg" alt="News" />
+        <pb>Fun Run 2025: A Community Celebration</pb>
+        <p>The annual Fun Run brought the community together with lively music, scenic routes, and a shared spirit of health and celebration.</p>
+        <span>April 25, 2025</span>
+      </div>
+    </div>
+    <a href="#" class="btn">View More</a>
+  </section>
+
+<section class="partners fade">
+  <h2>Partner Agencies</h2>
+  <div class="partners-logos">
+    <div class="partner">
+      <a href="https://province-pangasinan.gov.ph" target="_blank" rel="noopener noreferrer">
+        <img src="Seal_of_the_Province_of_Pangasinan.svg.png" alt="Province of Pangasinan Logo">
+      </a>
+      <p>Province of Pangasinan</p>
+    </div>
+    <div class="partner">
+      <a href="https://fire-protection.example.com" target="_blank" rel="noopener noreferrer">
+        <img src="URBIZTONDO-BFP-300x300.jpg" alt="Bureau of Fire Protection Logo">
+      </a>
+      <p>Municipal Fire Station</p>
+    </div>
+    <div class="partner">
+      <a href="https://facebook.com/examplepage" target="_blank" rel="noopener noreferrer">
+        <img src="Untitled-1-1-300x300.png" alt="Facebook Page Logo">
+      </a>
+      <p>Facebook Page</p>
+    </div>
+    <div class="partner">
+      <a href="https://cityhealthoffice.example.com" target="_blank" rel="noopener noreferrer">
+        <img src="CHO-300x300.jpg" alt="City Health Office Logo">
+      </a>
+      <p>City Health Office</p>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer fade">
+  <div class="footer-content">
+    <div class="contact">
+      <h3>Contact Us</h3>
+      <p>Urbiztondo Municipal Hall</p>
+      <p>Rizal Street, Barangay Poblacion, 2414 Urbiztondo, Philippines</p>
+      <p>(075) 555 1234</p>
+      <p>Email: your.email@urbiztondo.gov.ph</p>
+    </div>
+    <div class="quick-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="#">Complaints & Feedback</a></li>
+      </ul>
+    </div>
+    <div class="social">
+      <h3>Download App</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-google-play"></i></a>
+        <a href="#"><i class="fab fa-apple"></i></a>
+      </div>
+      <h3>Social Media</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2025 Municipality of Urbiztondo. All rights reserved.
+  </div>
+</footer>
+
+
+  <script>
+    const modal = document.getElementById("dashboardModal");
+    const btn = document.getElementById("dashboardBtn");
+    const close = document.querySelector(".close");
+
+    btn.onclick = function(e) {
+      e.preventDefault();
+      modal.style.display = "block";
+    }
+
+    close.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    window.onclick = function(e) {
+      if (e.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const fadeElems = document.querySelectorAll('.fade');
+
+      function checkVisibility() {
+        const viewportHeight = window.innerHeight;
+
+        fadeElems.forEach(el => {
+          const rect = el.getBoundingClientRect();
+
+          if (rect.top < viewportHeight && rect.bottom > 0) {
+            el.classList.add('visible');
+          } else {
+            el.classList.remove('visible');
+          }
+        });
+      }
+
+      window.addEventListener('scroll', checkVisibility);
+      checkVisibility();
+    });
+  </script>
+<script>
+  document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
+    toggle.addEventListener('click', function (e) {
+      e.preventDefault();
+      const dropdown = this.parentElement;
+      dropdown.classList.toggle('open');
+
+      // Close other dropdowns
+      document.querySelectorAll('.dropdown').forEach(d => {
+        if (d !== dropdown) d.classList.remove('open');
+      });
+    });
+  });
+
+  // Optional: close dropdowns when clicking outside
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.dropdown')) {
+      document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('open'));
+    }
+  });
+</script>
+</body>
+</html>
